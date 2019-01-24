@@ -1,0 +1,15 @@
+<!--pages/if/if.wxml-->
+<text>pages/if/if.wxml</text>
+<text wx:if="{{isloading}}"> 
+    isloading
+ </text>
+<text wx:else> 
+    done
+ </text>
+
+ <text hidden="{{!isloading}}"> 
+    肉肉是什么
+ </text>
+<text hidden='{{isloading}}'> 
+    傻逼
+ </text>
